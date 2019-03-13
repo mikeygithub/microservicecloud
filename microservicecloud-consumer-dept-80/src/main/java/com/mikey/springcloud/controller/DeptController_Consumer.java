@@ -1,6 +1,7 @@
 package com.mikey.springcloud.controller;
 
 import com.mikey.springcloud.entity.Dept;
+import com.mikey.springcloud.service.DeptClientService;
 import com.sun.org.apache.regexp.internal.RE;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -50,4 +51,7 @@ public class DeptController_Consumer {
 
         return restTemplate.getForObject(REST_URL_PREFIX+"/dept/discovery",Object.class);
     }
+
+
+
 }
