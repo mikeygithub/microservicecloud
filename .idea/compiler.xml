@@ -16,6 +16,7 @@
         <module name="microservicecloudporviderdept8001" />
         <module name="microservicecloudporviderdept8002" />
         <module name="microservicecloudporviderdept8003" />
+        <module name="microservicecloudproviderdepthystrix8001" />
       </profile>
     </annotationProcessing>
   </component>
